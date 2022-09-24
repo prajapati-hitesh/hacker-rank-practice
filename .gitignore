@@ -1,0 +1,7 @@
+# Files to exclude
+*.log
+*.class
+
+# Directories To Exclude
+/.idea/
+/target/
