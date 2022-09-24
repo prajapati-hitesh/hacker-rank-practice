@@ -19,7 +19,7 @@
         <jsoup.parser.version>1.15.3</jsoup.parser.version>
         <google.guava.version>31.1-jre</google.guava.version>
         <assertj.core.version>3.23.1</assertj.core.version>
-        <testng.version>7.1.0</testng.version>
+        <testng.version>7.6.1</testng.version>
         <assertj.guava.version>3.5.0</assertj.guava.version>
         <jackson.core.version>2.13.4</jackson.core.version>
         <google.gson.version>2.9.0</google.gson.version>
@@ -152,6 +152,15 @@
             <artifactId>passay</artifactId>
             <version>${passay.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
+
 
     </dependencies>
 
